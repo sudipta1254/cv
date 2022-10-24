@@ -56,6 +56,9 @@ h1 {
   padding-top: 25px
 }
 
+.middle-container {
+
+}
 
 .bottom-container {
   background: #c5ded7;
@@ -123,6 +126,7 @@ h1 {
   position: relative;
   padding-top: 70px;
   text-align: center;
+  font-family: 'Roboto Mono', monospace;
   padding-bottom: 15px;
   color: #45b29a;
   cursor: default;
