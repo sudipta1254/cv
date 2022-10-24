@@ -80,12 +80,17 @@ h1 {
 
 .top-cloud {
   position: relative;
-  left: 290px
+  left: 310px;
+  top: 20px
+}
+
+.mountain {
+  margin-right: 150px
 }
 
 .bottom-cloud {
-  position: absolute;
-  right: 1000px
+  position: relative;
+  margin-bottom: 250px
 }
 
 .x {
