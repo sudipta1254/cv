@@ -29,14 +29,16 @@ h1 {
 
 .para {
   font-family: 'Darker Grotesque', sans-serif;
+  margin-top: 0;
   font-weight: 550;
-  font-size: 200%;
+  font-size: 32px;
   color: #45b29a;
 }
 
 .p {
   font-family: serif;
   font-size: 17px;
+  line-height: 2;
 }
 
 .boy {
@@ -56,9 +58,6 @@ h1 {
   padding-top: 25px
 }
 
-.middle-container {
-
-}
 
 .bottom-container {
   background: #c5ded7;
@@ -104,21 +103,21 @@ h1 {
   margin-right: 10%;
   text-decoration: none;
   color: #45b29a;
-  font-size: 1em;
+  font-size: 16px;
 }
 .footer-link2 {
   position: relative;
   padding-left: 0%;
   text-decoration: none;
   color: #45b29a;
-  font-size: 1em;
+  font-size: 16px;
 }
 .footer-link3 {
   position: relative;
   margin-left: 10%;
   text-decoration: none;
   color: #45b29a;
-  font-size: 1em;
+  font-size: 16px;
 }
 
 .y {
@@ -130,7 +129,7 @@ h1 {
   padding-bottom: 15px;
   color: #45b29a;
   cursor: default;
-  font-size: 16px
+  font-size: 15.2px
 }
 
 .btn {
@@ -147,4 +146,23 @@ h1 {
   color: #1b7f69;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.com-img {
+  width: 25%;
+  float: left;
+  margin-right: 1rem
+}
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: 1rem
 }
