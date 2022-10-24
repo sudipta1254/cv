@@ -48,6 +48,7 @@ h1 {
 
 .dot {
   color: #d4d4d4;
+  cursor: context-menu;
   padding-top: 20px;
   padding-bottom: 30px
 }
@@ -89,9 +90,8 @@ h1 {
 
 .x {
   position: absolute;
-  right: 150px;
-  color: #1e836c;
-  text-decoration: none;
+  top: 600px;
+  right: 100px;
 }
 
 .footer {
@@ -159,10 +159,16 @@ h1 {
 .com-img {
   width: 25%;
   float: left;
-  margin-right: 1rem
+  margin-right: 16px
 }
 .chilli-img {
   width: 25%;
   float: right;
-  margin-left: 1rem
+  margin-left: 16px
+}
+
+.w {
+  height: 45px;
+  width: 45px;
+  position: fixed;
 }
