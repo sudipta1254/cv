@@ -73,11 +73,10 @@ h1 {
 
 .info1 {
   position: relative;
-  display: inline-block;
   font-family: sans-serif;
   padding-right: 16.8px;
-  left: 630px;
-  bottom: 60px;
+  left: 470px;
+  bottom: 55px;
   text-decoration: none;
   color: #45b29a;
   }
@@ -87,10 +86,9 @@ h1 {
   }
 .info2 {
   position: relative;
-  display: inline-block;
   font-family: sans-serif;
-  left: 630px;
-  bottom: 60px;
+  left: 470px;
+  bottom: 55px;
   text-decoration: none;
   color: #45b29a;
   }
@@ -110,7 +108,7 @@ h1 {
 .top-cloud {
   position: relative;
   margin-top: 35px;
-  left: 340px;
+  left: 310px;
   top: 115px
 }
 
