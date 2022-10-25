@@ -49,7 +49,7 @@ h1 {
 .dot {
   color: #dedede;
   cursor: context-menu;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 30px
 }
 
