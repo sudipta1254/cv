@@ -29,10 +29,10 @@ h1 {
 
 .para {
   font-family: 'Darker Grotesque', sans-serif;
-  margin-top: 0;
   font-weight: 550;
   font-size: 32px;
   color: #45b29a;
+  cursor: context-menu;
 }
 
 .p {
@@ -81,16 +81,16 @@ h1 {
 .top-cloud {
   position: relative;
   left: 310px;
-  top: 20px
+  top: 20px;
 }
 
 .mountain {
-  margin-right: 150px
+  margin-right: 150px;
 }
 
 .bottom-cloud {
   position: relative;
-  margin-bottom: 250px
+  margin-bottom: 250px;
 }
 
 .x {
@@ -163,10 +163,11 @@ h1 {
   }
 
 .skill-row {
-  width: 50%;
+  width: 60%;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 100px;
+  padding-bottom: 50px;
   text-align: left;
 }
 
