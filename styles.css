@@ -207,7 +207,7 @@ h1 {
   width: 55%;
   margin: auto;
   margin-top: 50px;
-  margin-bottom: 90px;
+  margin-bottom: 140px;
   text-align: left;
 }
 
@@ -227,3 +227,22 @@ h1 {
   width: 45px;
   position: fixed;
 }
+
+.udemy {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #40514E
+}
+
+.udemy_c {
+  position: relative;
+  bottom: 3px;
+  font-size: 12px;
+  text-decoration: none;
+  padding-left: 5px
+  }
+  .udemy_c:hover {
+    color: orange
+  }
