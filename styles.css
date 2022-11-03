@@ -63,8 +63,8 @@ h1 {
 
 .bottom-container {
   background: #c5ded7;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 35px;
+  padding-bottom: 10px;
 }
 
 .profile {
@@ -169,13 +169,13 @@ h1 {
 .y {
   display: block;
   position: relative;
-  padding-top: 50px;
+  padding-top: 30px;
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   padding-bottom: 15px;
   color: #45b29a;
   cursor: default;
-  font-size: 15.2px
+  font-size: 14px
 }
 
 .btn {
