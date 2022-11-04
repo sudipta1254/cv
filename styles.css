@@ -137,7 +137,9 @@ h1 {
   margin-right: 10%;
   text-decoration: none;
   color: #45b29a;
-  font-size: 16px;
+  font-size: 19px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 590
   }
   .footer-link1:hover {
     color: #1b7f69;
@@ -148,7 +150,9 @@ h1 {
   padding-left: 0%;
   text-decoration: none;
   color: #45b29a;
-  font-size: 16px;
+  font-size: 19px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 590
   }
   .footer-link2:hover {
     color: #1b7f69;
@@ -159,7 +163,9 @@ h1 {
   margin-left: 10%;
   text-decoration: none;
   color: #45b29a;
-  font-size: 16px;
+  font-size: 19px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 590
   }
   .footer-link3:hover {
     color: #1b7f69;
@@ -239,7 +245,7 @@ h1 {
 .udemy_c {
   position: relative;
   bottom: 3px;
-  font-size: 12px;
+  font-size: 11px;
   text-decoration: none;
   padding-left: 5px
   }
