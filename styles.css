@@ -40,7 +40,7 @@ h1 {
 .p {
   font-family: serif;
   font-size: 20px;
-  line-height: 2
+  line-height: 1.6
 }
 
 .boy {
@@ -139,7 +139,7 @@ h1 {
   color: #45b29a;
   font-size: 19px;
   font-family: 'Raleway', sans-serif;
-  font-weight: 590
+  font-weight: 580
   }
   .footer-link1:hover {
     color: #1b7f69;
@@ -152,7 +152,7 @@ h1 {
   color: #45b29a;
   font-size: 19px;
   font-family: 'Raleway', sans-serif;
-  font-weight: 590
+  font-weight: 500
   }
   .footer-link2:hover {
     color: #1b7f69;
@@ -165,7 +165,7 @@ h1 {
   color: #45b29a;
   font-size: 19px;
   font-family: 'Raleway', sans-serif;
-  font-weight: 590
+  font-weight: 580
   }
   .footer-link3:hover {
     color: #1b7f69;
@@ -247,8 +247,13 @@ h1 {
   bottom: 3px;
   font-size: 11px;
   text-decoration: none;
+  color: #40514E;
   padding-left: 5px
   }
   .udemy_c:hover {
     color: orange
   }
+
+.un {
+  color: #1e836c;
+}
