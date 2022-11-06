@@ -30,54 +30,54 @@ h1 {
 
 .para {
   font-family: 'Darker Grotesque', sans-serif;
-  margin-top: 0px;
+  margin-top: 0rem;
   font-weight: 550;
-  font-size: 32px;
+  font-size: 2rem;
   color: #45b29a;
   cursor: context-menu;
 }
 
 .p {
   font-family: serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.6
 }
 
 .boy {
-  height: 120px;
-  width: 120px;
+  height: 7.5rem;
+  width: 7.5rem;
 }
 
 .dot {
   color: #dedede;
   cursor: context-menu;
-  font-size: 12px;
-  padding-bottom: 30px
+  font-size: .75rem;
+  padding-bottom: 1.875rem
 }
 
 .top-container {
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 25px
+  padding-top: 1.5625rem
 }
 
 .bottom-container {
   background: #c5ded7;
-  padding-top: 35px;
-  padding-bottom: 10px;
+  padding-top: 2.1875rem;
+  padding-bottom: .625rem;
 }
 
 .profile {
-  padding-top: 40px;
-  padding-bottom: 10px
+  padding-top: 2.5rem;
+  padding-bottom: .625rem
 }
 
 .info1 {
   position: relative;
   font-family: sans-serif;
-  padding-right: 16.8px;
-  left: 470px;
-  bottom: 55px;
+  padding-right: 1.05rem;
+  left: 29.375rem;
+  bottom: 3.4375rem;
   text-decoration: none;
   color: #45b29a;
   }
@@ -88,8 +88,8 @@ h1 {
 .info2 {
   position: relative;
   font-family: sans-serif;
-  left: 470px;
-  bottom: 55px;
+  left: 29.375rem;
+  bottom: 3.4375rem;
   text-decoration: none;
   color: #45b29a;
   }
@@ -100,36 +100,36 @@ h1 {
 
 .profile-pic {
   position: absolute;
-  top: 20px;
-  left: 250px;
-  height: 70px;
-  width: 70px;
+  top: 1.25rem;
+  left: 15.625rem;
+  height: 4.375rem;
+  width: 4.375rem;
 }
 
 .top-cloud {
   position: relative;
-  margin-top: 35px;
-  left: 310px;
-  top: 115px
+  margin-top: 2.1875rem;
+  left: 19.375rem;
+  top: 7.1875rem
 }
 
 .mountain {
-  margin-right: 150px
+  margin-right: 9.375rem
 }
 
 .bottom-cloud {
   position: relative;
-  margin-bottom: 250px;
+  margin-bottom: 15.625rem;
 }
 
 .x {
   position: absolute;
-  top: 600px;
-  right: 100px;
+  top: 37.5rem;
+  right: 6.25rem;
 }
 
 .footer {
-  margin-right: 25px;
+  margin-right: 1.5625rem;
 }
 
 .footer-link1 {
@@ -137,7 +137,7 @@ h1 {
   margin-right: 10%;
   text-decoration: none;
   color: #45b29a;
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 580
   }
@@ -150,7 +150,7 @@ h1 {
   padding-left: 0%;
   text-decoration: none;
   color: #45b29a;
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 500
   }
@@ -163,7 +163,7 @@ h1 {
   margin-left: 10%;
   text-decoration: none;
   color: #45b29a;
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 580
   }
@@ -175,13 +175,13 @@ h1 {
 .y {
   display: block;
   position: relative;
-  padding-top: 30px;
+  padding-top: 1.875rem;
   text-align: center;
   font-family: 'Roboto Mono', monospace;
-  padding-bottom: 15px;
+  padding-bottom: .9375rem;
   color: #45b29a;
   cursor: default;
-  font-size: 14px
+  font-size: .875rem
 }
 
 .btn {
@@ -190,17 +190,17 @@ h1 {
   text-align: center;
   margin-left: 40%;
   margin-right: 40%;
-  margin-top: 55px;
-  margin-bottom: 55px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-top: 3.4375rem;
+  margin-bottom: 3.4375rem;
+  padding-top: .625rem;
+  padding-bottom: .625rem;
   background: #45b29a;
   color: #1b7f69;
   text-decoration: none;
   text-transform: uppercase;
   -webkit-border-radius: 4;
   -moz-border-radius: 4;
-  border-radius: 4px;
+  border-radius: .25rem;
   -webkit-box-shadow: 3px 3px 5px #666666;
   -moz-box-shadow: 3px 3px 5px #666666;
   box-shadow: 3px 3px 5px #666666;
@@ -218,43 +218,43 @@ h1 {
 .skill-row {
   width: 55%;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 130px;
+  margin-top: 3.125rem;
+  margin-bottom: 8.125rem;
   text-align: left;
 }
 
 .cod-img {
   width: 25%;
   float: left;
-  margin-right: 16px
+  margin-right: 1rem
 }
 .chilli-img {
   width: 25%;
   float: right;
-  margin-left: 16px
+  margin-left: 1rem
 }
 
 .w {
-  height: 45px;
-  width: 45px;
+  height: 2.8125rem;
+  width: 2.8125rem;
   position: fixed;
 }
 
 .udemy {
   text-decoration: none;
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: lighter;
   color: #40514E
 }
 
 .udemy_c {
   position: relative;
-  bottom: 3px;
-  font-size: 10px;
+  bottom: .1875rem;
+  font-size: .625rem;
   text-decoration: none;
   color: #40514E;
-  padding-left: 5px
+  padding-left: .3125rem
   }
   .udemy_c:hover {
     color: orange
@@ -266,4 +266,32 @@ h1 {
 
 .break {
   width: 7%;
+}
+
+.wind {
+  position: absolute;
+  top: 111%;
+  right: 19%;
+  width: 5%
+}
+
+.driz {
+  position: absolute;
+  top: 110%;
+  right: 10%;
+  width: 8.5%
+}
+
+.rain {
+  position: absolute;
+  top: 150%;
+  left: 8%;
+  width: 7.5%
+}
+
+.rainbow {
+  position: absolute;
+  top: 195%;
+  right: 9%;
+  width: 7.5%
 }
