@@ -118,7 +118,7 @@ h1 {
 }
 
 .bottom-cloud {
-  position: relative;
+  /* position: relative; */
   margin-bottom: 250px;
 }
 
@@ -266,4 +266,35 @@ h1 {
 
 .break {
   width: 7%;
+}
+
+
+
+
+
+.alert {
+  padding: 15px;
+  background-color: #f44336;
+  color: white;
+  left: 580px;
+  top: 300px;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: context-menu;
+  position: fixed
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.closebtn:hover {
+  color: black;
 }
