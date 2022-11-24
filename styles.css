@@ -279,7 +279,7 @@ h1 {
 }
 
 /* Alert */
-/* .alert {
+.alert {
   padding: 0.9375rem;
   background-color: #f44336;
   color: white;
@@ -290,9 +290,9 @@ h1 {
   cursor: context-menu;
   position: fixed;
   transition: 0.7s
-} */
+}
 
-/* .closebtn {
+.closebtn {
   margin-left: 0.9375rem;
   color: white;
   font-weight: bold;
@@ -301,44 +301,13 @@ h1 {
   line-height: 1.25rem;
   cursor: pointer;
   transition: 0.4s;
-} */
-
-/* .closebtn:hover {
-  color: black;
-} */
-
-@media (max-width:992px) {
-  /* Alert */
-  .alert {
-    padding: 0.9375rem;
-    background-color: #f44336;
-    color: white;
-    left: 37rem;
-    top: 18.75rem;
-    border-radius: 0.625rem;
-    text-decoration: none;
-    cursor: context-menu;
-    position: fixed;
-    transition: 0.7s
-  }
-  
-  .closebtn {
-    margin-left: 0.9375rem;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 1.375rem;
-    line-height: 1.25rem;
-    cursor: pointer;
-    transition: 0.4s;
-  }
-  
-  .closebtn:hover {
-    color: black;
-  }
 }
 
-@media (max-width:768px) {
+.closebtn:hover {
+  color: black;
+}
+
+@media (max-width:576px) {
   .head {
     font-family: 'Bonheur Royale', cursive;
     font-size: 470%;
@@ -347,7 +316,7 @@ h1 {
     cursor: context-menu;
   }
 
-  /* .alert {
+  .alert {
     padding: 0.9375rem;
     background-color: #f44336;
     color: white;
@@ -361,7 +330,7 @@ h1 {
     z-index: 1;
     position: fixed;
     transition: 0.7s
-  } */
+  }
 
   .profile-pic {
     position: absolute;
