@@ -472,13 +472,13 @@ h1 {
     font-size: 1px;
   }
   .footer-link1 {
-    font-size: 19px;
+    font-size: 15px;
   }
   .footer-link2 {
-    font-size: 19px;
+    font-size: 15px;
   }
   .footer-link3 {
-    font-size: 19px;
+    font-size: 15px;
   }
 
   .skill-row {
@@ -486,5 +486,16 @@ h1 {
     margin: auto;
     margin-bottom: 80px;
     text-align: left;
+  }
+  
+  .y {
+    display: block;
+    position: relative;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #45b29a;
+    cursor: default;
+    font-size: 15px
   }
 }
