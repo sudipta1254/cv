@@ -511,7 +511,7 @@ h1 {
   .y {
     display: block;
     position: relative;
-    padding: 15px 0 10px 0;
+    padding: 15px 0 5px 0;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     color: #45b29a;
