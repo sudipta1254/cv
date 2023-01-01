@@ -24,7 +24,7 @@ h1 {
 }
 
 .h {
-  font-family: sans-serif;
+  font-family: 'Yatra One', cursive;
   color: #1e836c;
   cursor: context-menu;
 }
@@ -84,8 +84,9 @@ h1 {
 }
 
 .info1 {
+  font-family: 'Tillana', cursive;
+  font-weight: 500;
   position: relative;
-  font-family: sans-serif;
   padding-right: 16.8px;
   left: 470px;
   bottom: 75px;
@@ -100,8 +101,9 @@ h1 {
 }
 
 .info2 {
+  font-family: 'Tillana', cursive;
+  font-weight: 500;
   position: relative;
-  font-family: sans-serif;
   left: 470px;
   bottom: 75px;
   text-decoration: none;
@@ -156,12 +158,13 @@ h1 {
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
   transition: 0.4s;
-  font-weight: 580
+  font-weight: 400;
 }
 
 .footer-link1:hover {
   color: #046550;
   text-decoration: none;
+  letter-spacing: 1px
 }
 
 .footer-link2 {
@@ -172,12 +175,13 @@ h1 {
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
   transition: 0.4s;
-  font-weight: 500
+  font-weight: 400;
 }
 
 .footer-link2:hover {
   color: #046550;
   text-decoration: none;
+  letter-spacing: 1px
 }
 
 .footer-link3 {
@@ -188,24 +192,33 @@ h1 {
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
   transition: 0.4s;
-  font-weight: 580
+  font-weight: 400;
 }
 
 .footer-link3:hover {
   color: #046550;
   text-decoration: none;
+  letter-spacing: 1px
 }
 
 .y {
   display: block;
   position: relative;
   padding-top: 30px;
+  padding-bottom: 5px;
   text-align: center;
   font-family: 'Roboto Mono', monospace;
-  padding-bottom: 15px;
   color: #45b29a;
   cursor: default;
-  font-size: 14px
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.ver {
+  font-family: 'Yatra One', cursive;
+  color: #45b29a;
+  margin: 0 0 5px;
+  padding: 0;
 }
 
 .btn {
@@ -410,10 +423,10 @@ h1 {
   }
 
   .info1 {
+    font-weight: 400;
     position: relative;
-    font-family: sans-serif;
     padding-right: 16.8px;
-    left: 200px;
+    left: 190px;
     bottom: 55px;
     text-decoration: none;
     color: #45b29a;
@@ -425,9 +438,9 @@ h1 {
   }
   
   .info2 {
+    font-weight: 400;
     position: relative;
-    font-family: sans-serif;
-    left: 190px;
+    left: 180px;
     bottom: 55px;
     text-decoration: none;
     color: #45b29a;
@@ -476,7 +489,7 @@ h1 {
 
   .footer {
     justify-content: center;
-    font-size: 1px;
+    margin-left: 3px;
   }
   .footer-link1 {
     font-size: 15px;
@@ -498,11 +511,16 @@ h1 {
   .y {
     display: block;
     position: relative;
-    padding: 15px 0;
+    padding: 15px 0 10px 0;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     color: #45b29a;
     cursor: default;
     font-size: 15px
+  }
+
+  .ver {
+    margin: 0;
+    padding: 0;
   }
 }
