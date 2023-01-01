@@ -98,6 +98,7 @@ h1 {
 .info1:hover {
   color: #1b7f69;
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 .info2 {
@@ -114,6 +115,7 @@ h1 {
 .info2:hover {
   color: #1b7f69;
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 .profile-pic {
@@ -151,14 +153,14 @@ h1 {
 }
 
 .footer-link1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   position: relative;
   margin-right: 10%;
   text-decoration: none;
   color: #45b29a;
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
   transition: 0.4s;
-  font-weight: 400;
 }
 
 .footer-link1:hover {
@@ -168,14 +170,14 @@ h1 {
 }
 
 .footer-link2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   position: relative;
   padding-left: 0%;
   text-decoration: none;
   color: #45b29a;
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
   transition: 0.4s;
-  font-weight: 400;
 }
 
 .footer-link2:hover {
@@ -185,14 +187,14 @@ h1 {
 }
 
 .footer-link3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   position: relative;
   margin-left: 10%;
   text-decoration: none;
   color: #45b29a;
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
   transition: 0.4s;
-  font-weight: 400;
 }
 
 .footer-link3:hover {
@@ -202,16 +204,16 @@ h1 {
 }
 
 .y {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
   display: block;
   position: relative;
   padding-top: 30px;
   padding-bottom: 5px;
   text-align: center;
-  font-family: 'Roboto Mono', monospace;
   color: #45b29a;
   cursor: default;
   font-size: 14px;
-  font-weight: 100;
 }
 
 .ver {
@@ -305,7 +307,8 @@ h1 {
 }
 
 .udemy_c:hover {
-  color: orange
+  color: orange;
+  letter-spacing: 1px;
 }
 
 .un {
@@ -492,12 +495,15 @@ h1 {
     margin-left: 3px;
   }
   .footer-link1 {
+    font-weight: 500;
     font-size: 15px;
   }
   .footer-link2 {
+    font-weight: 500;
     font-size: 15px;
   }
   .footer-link3 {
+    font-weight: 500;
     font-size: 15px;
   }
 
@@ -511,7 +517,7 @@ h1 {
   .y {
     display: block;
     position: relative;
-    padding: 15px 0 5px 0;
+    padding: 15px 0 10px 0;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     color: #45b29a;
