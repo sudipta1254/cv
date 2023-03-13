@@ -30,9 +30,9 @@ h1 {
   cursor: context-menu;
 }
 
-#new {
+/* #new {
   font-family: 'cot';
-}
+} */
 
 .h {
   font-family: 'Yatra One', cursive;
@@ -56,7 +56,7 @@ h1 {
 }
 
 .p {
-  font-family: serif;
+  font-family: 'cot', serif;
   font-size: 20px;
   line-height: 1.5;
 }
