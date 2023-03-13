@@ -1,3 +1,10 @@
+@import url(Fonts/ff.css);
+@font-face {
+  font-family: 'cot';
+  src: url('Cotta.otf') format(opentype);
+  font-style: normal;
+  font-weight: normal;
+}
 body {
   margin: 0;
   /* padding: 0; */
@@ -23,8 +30,12 @@ h1 {
   cursor: context-menu;
 }
 
+#new {
+  font-family: 'cot';
+}
+
 .h {
-  font-family: 'Yatra One', cursive;
+  font-family: sans-serif;
   color: #1e836c;
   cursor: context-menu;
 }
@@ -84,9 +95,8 @@ h1 {
 }
 
 .info1 {
-  font-family: 'Tillana', cursive;
-  font-weight: 500;
   position: relative;
+  font-family: sans-serif;
   padding-right: 16.8px;
   left: 470px;
   bottom: 75px;
@@ -98,13 +108,11 @@ h1 {
 .info1:hover {
   color: #1b7f69;
   text-decoration: none;
-  letter-spacing: 1px;
 }
 
 .info2 {
-  font-family: 'Tillana', cursive;
-  font-weight: 500;
   position: relative;
+  font-family: sans-serif;
   left: 470px;
   bottom: 75px;
   text-decoration: none;
@@ -115,7 +123,6 @@ h1 {
 .info2:hover {
   color: #1b7f69;
   text-decoration: none;
-  letter-spacing: 1px;
 }
 
 .profile-pic {
@@ -153,74 +160,63 @@ h1 {
 }
 
 .footer-link1 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
   position: relative;
   margin-right: 10%;
   text-decoration: none;
   color: #45b29a;
   font-size: 20px;
+  font-family: 'Raleway', sans-serif;
   transition: 0.4s;
+  font-weight: 580
 }
 
 .footer-link1:hover {
   color: #046550;
   text-decoration: none;
-  letter-spacing: 1px
 }
 
 .footer-link2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
   position: relative;
   padding-left: 0%;
   text-decoration: none;
   color: #45b29a;
   font-size: 20px;
+  font-family: 'Raleway', sans-serif;
   transition: 0.4s;
+  font-weight: 500
 }
 
 .footer-link2:hover {
   color: #046550;
   text-decoration: none;
-  letter-spacing: 1px
 }
 
 .footer-link3 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
   position: relative;
   margin-left: 10%;
   text-decoration: none;
   color: #45b29a;
   font-size: 20px;
+  font-family: 'Raleway', sans-serif;
   transition: 0.4s;
+  font-weight: 580
 }
 
 .footer-link3:hover {
   color: #046550;
   text-decoration: none;
-  letter-spacing: 1px
 }
 
 .y {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 300;
   display: block;
   position: relative;
   padding-top: 30px;
-  padding-bottom: 5px;
   text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  padding-bottom: 15px;
   color: #45b29a;
   cursor: default;
-  font-size: 14px;
-}
-
-.ver {
-  font-family: 'Yatra One', cursive;
-  color: #45b29a;
-  margin: 0 0 5px;
-  padding: 0;
+  font-size: 14px
 }
 
 .btn {
@@ -307,8 +303,7 @@ h1 {
 }
 
 .udemy_c:hover {
-  color: orange;
-  letter-spacing: 1px;
+  color: orange
 }
 
 .un {
@@ -426,10 +421,10 @@ h1 {
   }
 
   .info1 {
-    font-weight: 400;
     position: relative;
+    font-family: sans-serif;
     padding-right: 16.8px;
-    left: 190px;
+    left: 200px;
     bottom: 55px;
     text-decoration: none;
     color: #45b29a;
@@ -441,9 +436,9 @@ h1 {
   }
   
   .info2 {
-    font-weight: 400;
     position: relative;
-    left: 180px;
+    font-family: sans-serif;
+    left: 190px;
     bottom: 55px;
     text-decoration: none;
     color: #45b29a;
@@ -492,18 +487,15 @@ h1 {
 
   .footer {
     justify-content: center;
-    margin-left: 3px;
+    font-size: 1px;
   }
   .footer-link1 {
-    font-weight: 500;
     font-size: 15px;
   }
   .footer-link2 {
-    font-weight: 500;
     font-size: 15px;
   }
   .footer-link3 {
-    font-weight: 500;
     font-size: 15px;
   }
 
@@ -517,16 +509,11 @@ h1 {
   .y {
     display: block;
     position: relative;
-    padding: 15px 0 10px 0;
+    padding: 15px 0;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     color: #45b29a;
     cursor: default;
     font-size: 15px
-  }
-
-  .ver {
-    margin: 0;
-    padding: 0;
   }
 }
