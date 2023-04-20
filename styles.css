@@ -331,8 +331,6 @@ h1 {
 }
 
 
-
-
 /* Alert */
 .alert {
   /* padding: 0.9375rem;
@@ -423,7 +421,7 @@ h1 {
   .bottom-cloud {
     position: absolute;
     left: 20px;
-    top: 350px;
+    top: 290px;
     width: 25%;
   }
 
